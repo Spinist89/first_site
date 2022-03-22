@@ -12,6 +12,30 @@ def index():
 def about():
     return render_template('about.html')
 
+@app.route('/masters')
+def masters():
+    return render_template('masters.html')
+
+@app.route('/stock')
+def stock():
+    return render_template('stock.html')
+
+@app.route('/recording')
+def recording():
+    return render_template('recording.html')
+
+@app.route('/gift_certificates')
+def gift_certificates():
+    return render_template('gift_certificates.html')
+
+@app.route('/reviews')
+def reviews():
+    return render_template('reviews.html')
+
+@app.route('/contacts')
+def contacts():
+    return render_template('contacts.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
     

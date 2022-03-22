@@ -1,0 +1,17 @@
+.header {
+    background: -webkit-linear-gradient(90deg, #f8f5ec,#f0ebd9,#decece,#866a88);
+    background: linear-gradient(90deg, #f8f5ec,#f0ebd9,#decece,#866a88);
+    font-family: Luminari, fantasy;
+    font-size: 20px;
+    /*color: black;*/
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+    width: 100%;
+    height: 0;
+    font-family: Luminari, fantasy;
+    font-size: 20px;
+}
