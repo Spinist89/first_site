@@ -1,0 +1,73 @@
+{% extends "base.html"%}
+
+{% block title %}
+Галерея
+{% endblock %}
+
+{% block body %}
+<br>
+<br>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        .thumb img {
+            -webkit-filter: grayscale(0);
+            filter: none;
+            border-radius: 5px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 5px;
+
+        }
+
+        .thumb img:hover {
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+        }
+
+        .thumb {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="h3 text-center my-4">Наши неотразимые фоточки</h1>
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-6 thumb">
+            <a data-fancybox="gallery" href="static/img/karusel/mass1.jpg">
+                <img class="img-fluid" src="static/img/karusel/mass1.jpg" alt="...">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 thumb">
+            <a data-fancybox="gallery" href="static/img/karusel/mass2.jpg">
+                <img class="img-fluid" src="static/img/karusel/mass2.jpg" alt="...">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 thumb">
+            <a data-fancybox="gallery" href="static/img/karusel/mass3.jpeg">
+                <img class="img-fluid" src="static/img/karusel/mass3.jpeg" alt="...">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 thumb">
+            <a data-fancybox="gallery" href="static/img/karusel/mass3.jpeg">
+                <img class="img-fluid" src="static/img/karusel/mass3.jpeg" alt="...">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 thumb">
+            <a data-fancybox="gallery" href="static/img/karusel/mass3.jpeg">
+                <img class="img-fluid" src="static/img/karusel/mass3.jpeg" alt="...">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 thumb">
+            <a data-fancybox="gallery" href="static/img/karusel/mass3.jpeg">
+                <img class="img-fluid" src="static/img/karusel/mass3.jpeg" alt="...">
+            </a>
+        </div>
+
+    </div>
+</div>
+</body>
+{% endblock %}
